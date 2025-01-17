@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Univer Chain - Blockchain Innovation Platform',
-  description: 'Univer Chain is a robust and innovative blockchain platform designed for scalability, security, and efficiency.',
+  description: 'Universal Chain is a robust and innovative blockchain platform designed for scalability, security, and efficiency.',
 };
 
 export default function RootLayout({
