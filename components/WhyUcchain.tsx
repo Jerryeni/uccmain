@@ -20,7 +20,7 @@ export function WhyUcchain() {
     {
       title: "Potential high returns",
       description: "Significant growth potential with the listing at $1",
-      src: "/images/img4.png"
+      src: "/img2.svg"
     },
     {
       title: "Low gas fee",

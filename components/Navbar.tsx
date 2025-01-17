@@ -20,8 +20,8 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src={require("../public/icon.png")} alt="ucc Logo" className="" />
-              <span className="text-xl font-bold">UCC</span>
+              <Image src={require("../public/logo.svg")} alt="ucc Logo" className="" />
+              {/* <span className="text-xl font-bold">UCC</span> */}
             </Link>
           </div>
           

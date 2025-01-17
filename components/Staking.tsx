@@ -38,7 +38,7 @@ export function Staking() {
         </motion.div>
 
         <div className="relative">
-          <Image width={40} height={40} src="/images/staking.svg" alt="" className="w-[80%] mx-auto mt-10" />
+          <Image width={40} height={40} src="/blockchain.svg" alt="" className="w-[80%] mx-auto mt-10" />
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-8 -mt-16">

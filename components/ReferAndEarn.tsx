@@ -55,7 +55,7 @@ export function ReferAndEarn() {
                             <div className="w-full h-full bg-gradient-to-br from-yellow-500/20 to-yellow-500/10 rounded-full" />
                         </div>
                         <div className="relative">
-                            <Image width={40} height={40} src="/images/OBJECTS.svg" alt="" className="w-[60%] animate-pulse mx-auto mt-10" />
+                            <Image width={40} height={40} src="/object.svg" alt="" className="w-[60%] animate-pulse mx-auto mt-10" />
 
                         </div>
 

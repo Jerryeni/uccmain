@@ -44,7 +44,7 @@ export function Footer() {
                 className="absolute inset-0"
               >
                 <div className="relative w-full">
-                  <Image src={require("../public/images/Image.svg")} alt="refer" className="animate-bounce duration-50 w-[90%]" />
+                  <Image src={require("../public/img.svg")} alt="refer" className="animate-bounce duration-50 w-[90%]" />
                   {/* Animated city skyline illustration */}
                   <div className="absolute bottom-0 right-0 w-full h-4/5">
                     <div className="relative w-full h-full">
@@ -90,9 +90,9 @@ export function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
           <div>
             <Link href="/" className="flex items-center space-x-2 ">
-            <Image src={require("../public/icon.svg")} alt="refer" className=" " />
+            <Image src={require("../public/logo.svg")} alt="refer" className=" " />
 
-              <span className="text-xl font-bold">UCC</span>
+              {/* <span className="text-xl font-bold">UCC</span> */}
             </Link>
             <p className="text-gray-400 text-sm">
               © 2025 Ucchain Network. All rights reserved.

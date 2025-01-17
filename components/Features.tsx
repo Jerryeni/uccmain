@@ -14,7 +14,7 @@ export function Features() {
     {
       title: "Purchase UCC",
       description: "Use crypto or fiat to buy UCC tokens.",
-      src: "/images/icon(1).svg"
+      src: "/icon2.svg"
     },
     {
       title: "Hold & Earn",
@@ -65,7 +65,7 @@ export function Features() {
               transition={{ delay: 0.2 }}
               className="text-center mx-auto"
             >
-        <Image width={100} height={100} src="/images/bg3.png" alt="" className="w-[90%] animate-pulse mx-auto" />
+        <Image width={100} height={100} src="/img1.svg" alt="" className="w-[90%] animate-pulse mx-auto" />
               
         </motion.div>
       </motion.div>

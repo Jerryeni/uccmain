@@ -78,7 +78,7 @@ export function TokenProgress(props: TokenProgressProps) {
           <span className="py-1 px-3 text-[8px] md:text-sm glass-card">Current price</span>
           <div className="flex items-center justify-center gap-1">
             <Image
-              src="/images/icon.png"
+              src="/coin.svg"
               alt="Ucchain-logo"
               width={12}
               height={12}
@@ -101,7 +101,7 @@ export function TokenProgress(props: TokenProgressProps) {
           <span className="py-1 px-3 glass-card text-[8px] md:text-sm">Next price</span>
           <div className="flex items-center justify-center gap-1">
             <Image
-              src="/images/coin.svg"
+              src="/coin.svg"
               alt="Ucchain-logo"
               width={12}
               height={12}
