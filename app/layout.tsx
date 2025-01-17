@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Univer Chain - Blockchain Innovation Platform',
+  title: 'Universal Chain - Blockchain Innovation Platform',
   description: 'Universal Chain is a robust and innovative blockchain platform designed for scalability, security, and efficiency.',
 };
 
