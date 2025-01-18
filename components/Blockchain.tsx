@@ -69,8 +69,7 @@ export function Blockchain() {
             <span className="gradient-text">Blockchain</span> Architecture
           </h2>
           <p className="text-muted/80 max-w-2xl mx-auto">
-            Built on cutting-edge blockchain architecture, UCC delivers unparalleled
-            security, scalability, and efficiency for the next generation of decentralized applications.
+          Ucchain is built on a robust and innovative architecture designed to address the inefficiencies of traditional blockchains, offering a platform that is scalable, secure, and efficient.
           </p>
         </motion.div>
 

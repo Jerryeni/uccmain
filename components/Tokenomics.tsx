@@ -57,7 +57,7 @@ const features = [
   {
     icon: Coins,
     title: "Sustainability",
-    description: "Ucchain has designed its tokenomics to ensure sustainable growth and value appreciation for UCC Coin"
+    description: "Ucchain boasts a limited supply of 20 million FNX Coins, ensuring scarcity and sustainable growth!"
   },
   {
     icon: Users,

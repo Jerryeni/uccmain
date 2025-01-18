@@ -69,20 +69,20 @@ export function Features() {
           ))}
         </div>
 
-        {/* <motion.div
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2 }}
-          className="text-center mx-auto"
+          className="text-center mx-auto absolute -bottom-32 left-32 "
         >
           <Image
             width={100}
             height={100}
             src="/img1.svg"
             alt="Promo Image"
-            className="w-[90%] animate-pulse mx-auto"
+            className="w-[90%] animate-pulse mx-auto opacity-10"
           />
-        </motion.div> */}
+        </motion.div>
         {/* 3D Animation Background */}
       {/* <div className="absolutex inset-0 bottom-0 w-full h-full pointer-events-none"> */}
         <Usdt3DAnimation />

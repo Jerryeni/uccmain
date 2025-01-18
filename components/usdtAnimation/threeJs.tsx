@@ -18,27 +18,27 @@ export default function Usdt3DAnimation(): JSX.Element {
     containerRef.current.appendChild(renderer.domElement);
 
     // Central 3D Coin
-    const coinTexture = new THREE.TextureLoader().load("/img4.svg");
+    const coinTexture = new THREE.TextureLoader().load("/img1.svg");
     const coinSideTexture = new THREE.TextureLoader().load("/ucc-logo.svg"); // Optional texture for the coin's edge
-    const coinGeometry = new THREE.CylinderGeometry(6, 6, 2, 64); // 3D coin shape
+    const coinGeometry = new THREE.CylinderGeometry(6, 6, 0.5, 64); // 3D coin shape
     const coinMaterial = [
       new THREE.MeshBasicMaterial({ map: coinSideTexture }), // Side texture
       new THREE.MeshBasicMaterial({ map: coinTexture }), // Front face
       new THREE.MeshBasicMaterial({ map: coinTexture }), // Back face
     ];
     const coin = new THREE.Mesh(coinGeometry, coinMaterial);
-    coin.rotation.x = Math.PI / 2; // Rotate to face the camera
+    coin.rotation.x = Math.PI / 4; // Rotate to face the camera
     scene.add(coin);
 
     // Array of Rotating USDT Spheres
-    const usdtTexture = new THREE.TextureLoader().load("/usdt3.jpeg");
+    const usdtTexture = new THREE.TextureLoader().load("/ucc-logo.svg");
     const usdtGeometry = new THREE.SphereGeometry(0.7, 64, 64); // High-resolution for round spheres
     const usdtMaterial = new THREE.MeshStandardMaterial({
       map: usdtTexture,
-      emissive: 0x19ee99, // Greenish glow
-      emissiveIntensity: 0.5,
+      // emissive: 0x19ee99, // Greenish glow
+      emissiveIntensity: 1,
       // roughness: 0.1, // Smooth reflective surface
-      metalness: 0.3, // Glossy appearance
+      metalness: 0.5, // Glossy appearance
     });
 
     const usdtSpheres: THREE.Mesh[] = [];
@@ -112,7 +112,7 @@ export default function Usdt3DAnimation(): JSX.Element {
       }}
     >
       {/* Blinking $5 Text */}
-      {Array.from({ length: 4 }).map((_, i) => (
+      {/* {Array.from({ length: 10 }).map((_, i) => (
         <span
           key={i}
           style={{
@@ -123,7 +123,7 @@ export default function Usdt3DAnimation(): JSX.Element {
             padding: "0.25rem",
             borderRadius: "0.25rem",
             width: "3rem",
-            backgroundColor: "rgba(1, 90, 4, 0.5)",
+            backgroundColor: "rgba(1, 90, 4, 0.3)",
             fontWeight: "normal",
             color: "#55ee99", // Bright green color
             animation: `blink ${1.5 + Math.random()}s infinite`, // Independent blinking
@@ -132,7 +132,7 @@ export default function Usdt3DAnimation(): JSX.Element {
         >
           +$5
         </span>
-      ))}
+      ))} */}
 
       <style jsx>{`
         @keyframes blink {

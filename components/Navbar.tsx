@@ -28,7 +28,7 @@ export function Navbar() {
           <div className="hidden md:block">
             <div className="flex items-center space-x-8">
               <Link href="#why-us" className="text-[#A6A9A8] hover:text-white transition-colors">
-                Why us?
+                About us
               </Link>
               <Link href="#staking" className="text-[#A6A9A8] hover:text-white transition-colors">
                 Staking
