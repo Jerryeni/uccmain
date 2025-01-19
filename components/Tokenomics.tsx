@@ -57,7 +57,7 @@ const features = [
   {
     icon: Coins,
     title: "Sustainability",
-    description: "Ucchain boasts a limited supply of 20 million FNX Coins, ensuring scarcity and sustainable growth!"
+    description: "Ucchain boasts a limited supply of 20 million UCC Coins, ensuring scarcity and sustainable growth!"
   },
   {
     icon: Users,
@@ -94,14 +94,23 @@ export function Tokenomics() {
           >
             <div className="flex items-center justify-center z-10">
               <div className="text-center">
-                <div className="text-2xl font-bold">30 Million</div>
+                <div className="text-2xl font-bold">20 Million</div>
                 <div className="text-sm text-gray-400">Total Supply</div>
               </div>
             </div>
             {/* <PieChart /> */}
             <div className="relative">
-              <Image width={40} height={40} src="/images/staking2.svg" alt="" className="w-[60%] mx-auto mt-10" />
+              <Image width={40} height={40} src="/images/chart.png" alt="" className="w-[60%] mx-auto mt-10" />
             </div>
+            <ul className="flex flex-col mx-auto py-4 text-muted/80">
+              <li className="text-xs text-left">Team (5%)</li>
+              <li className="text-xs text-left">Airdrop (5%)</li>
+              <li className="text-xs text-left">Presale (35%)</li>
+              <li className="text-xs text-left">Marketing (10%)</li>
+              <li className="text-xs text-left">further Listing (20%)</li>
+              <li className="text-xs text-left">Staking rewards (25%)</li>
+
+            </ul>
           </motion.div>
 
           <div className="space-y-8">
