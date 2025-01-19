@@ -20,7 +20,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Image src={require("../public/logo.svg")} alt="ucc Logo" className="" />
+              <Image src={require("../public/logo.svg")} alt="ucc Logo" className="w-20 h-20 md:w-32 md:h-32" />
               {/* <span className="text-xl font-bold">UCC</span> */}
             </Link>
           </div>
@@ -89,7 +89,7 @@ export function Navbar() {
 
               <Button 
                 variant="secondary" 
-                className="bg-gradient-to-r from-[#966602] via-[#F9F400] to-[#966602] rounded-full hover:bg-yellow-500 text-black w-full"
+                className="bg-gradient-to-r from-[#966602] via-[#F9F400] to-[#966602] rounded-full hover:bg-yellow-500 text-black w-full text-xs md:text-base"
               >
                 Connect Wallet
               </Button>
